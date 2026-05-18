@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import API from "../api/axios"; // Import the instance we just made
+import API from "../utils/axios"; // Import the instance we just made
 
 // Make sure you have the word 'export' before 'const notices'
 export const notices = [
