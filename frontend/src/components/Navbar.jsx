@@ -66,7 +66,7 @@ const Navbar = () => {
 
               {/* Animated Dropdown Button */}
               <div className="relative group">
-                <div className="button-bg rounded-full p-[2px] hover:scale-105 transition duration-300 active:scale-95 cursor-pointer shadow-lg">
+                <div className="button-bg rounded-full p-0.5 hover:scale-105 transition duration-300 active:scale-95 cursor-pointer shadow-lg">
                   <button className="px-5 py-2 text-white rounded-full font-semibold bg-slate-900 flex items-center gap-2 text-sm">
                     Get Started
                     <svg
@@ -155,6 +155,7 @@ const Navbar = () => {
               </button>
             </div>
           </div>
+          
         </div>
 
         {/* Mobile Menu Dropdown - Matching Blue Theme */}

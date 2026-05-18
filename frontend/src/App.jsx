@@ -18,6 +18,7 @@ import Academics from "./pages/Academics";
 import Admissions from "./pages/Admission";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/Notfound";
+import Scholarship from "./pages/Scholarship";
 import Gallery from "./pages/Gallery";
 
 /**
@@ -46,7 +47,7 @@ const App = () => {
         <Navbar />
 
         {/* Page Content: This section grows to fill space, pushing Footer down */}
-        <main className="flex-grow">
+        <main className=" flex-grow: 1">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -55,6 +56,8 @@ const App = () => {
             <Route path="/admissions" element={<Admissions />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/admissions/scholarship" element={<Scholarship/>} />
+
             
             {/* Catch-all route for 404 Page Not Found */}
             <Route path="*" element={<NotFound />} />
