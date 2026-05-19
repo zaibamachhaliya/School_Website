@@ -40,7 +40,7 @@ const Contact = () => {
 
     try {
       const res = await getAIResponse(question);
-      setReply(res);
+      setReply(res); // eslint-disable-next-line no-unused-vars
     } catch (error) {
       console.error(error);
 
